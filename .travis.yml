@@ -12,7 +12,7 @@ install:
   - pip install -e .
 
 script:
-  - pytest --cov
+  - pytest --cov tests/
   #- coverage run --source=vantage6 --omit="utest.py" utest.py
 
 after_success:
